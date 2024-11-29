@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Досев - The Crazy Squad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container profile-page">
+        <nav class="top-nav">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back
+            </a>
+            <h1 class="profile-title">Досев - Скачащият Човек</h1>
+        </nav>
+
+        <div class="profile-content">
+            <div class="profile-header">
+                <div class="profile-icon">
+                    <i class="fas fa-running"></i>
+                </div>
+            </div>
+
+            <div class="story-section">
+                <div class="story-title">Чудото на Счупения Крак</div>
+                <p class="story-text">След като си е счупил крака и след като е пил алкохол, може да тича и да скача:</p>
+                <ul class="story-list">
+                    <li><i class="fas fa-glass-martini-alt"></i> След първата чаша - кракът спира да боли</li>
+                    <li><i class="fas fa-walking"></i> След втората - започва да танцува</li>
+                    <li><i class="fas fa-running"></i> След третата - бяга като олимпийски атлет</li>
+                    <li><i class="fas fa-helicopter"></i> След четвъртата - прави салта</li>
+                </ul>
+                <div class="fun-fact">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span>Интересен факт: Счупеният крак работи по-добре след няколко питиета!</span>
+                </div>
+            </div>
+
+            <div class="profile-images">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462550837_561955269573493_7785959787510541486_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=0024fc&_nc_ohc=3Aa0FqNuQR8Q7kNvgGah-VC&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QGEpXHhESEZQV_LEI9M1UakTvmo98nBoC7GLyoZXAws0A&oe=67703C5B" alt="Dosev" class="profile-pic">
+            </div>
+
+            <div class="comment-section">
+                <h3><i class="fas fa-comments"></i> Коментари за Досев</h3>
+                <div class="comments" id="dosev-comments"></div>
+                <div class="comment-form">
+                    <textarea id="dosev-comment" placeholder="Напиши коментар..."></textarea>
+                    <button onclick="addComment('dosev')">
+                        <i class="fas fa-paper-plane"></i> Изпрати
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Емо - The Crazy Squad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container profile-page">
+        <nav class="top-nav">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back
+            </a>
+            <h1 class="profile-title">Емо - Майстора на Вратите</h1>
+        </nav>
+
+        <div class="profile-content">
+            <div class="profile-header">
+                <div class="profile-icon">
+                    <i class="fas fa-door-open"></i>
+                </div>
+            </div>
+
+            <div class="story-section">
+                <div class="story-title">Легендата за Вратата</div>
+                <p class="story-text">Емо е известен с това, че е майстор на вратите. Той може да отвори всяка врата, дори и когато е заключена:</p>
+                <ul class="story-list">
+                    <li><i class="fas fa-door-open"></i> Отваря врати без ключ</li>
+                    <li><i class="fas fa-magic"></i> Прави магии с брави</li>
+                    <li><i class="fas fa-tools"></i> Поправя счупени врати</li>
+                    <li><i class="fas fa-key"></i> Никога не губи ключове</li>
+                </ul>
+                <div class="fun-fact">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span>Интересен факт: Веднъж отвори врата само с поглед!</span>
+                </div>
+            </div>
+
+            <div class="profile-images">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/432813694_1795179860961617_6627067834071005337_n.jpg?stp=dst-jpg_s640x640&_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=-SyxAEUz5bMQ7kNvgE6ki93&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QGmlTLEX-Y-Ki6xDkqja9G_mM23WHPoW4czs6n8wkidYA&oe=67701DA9" alt="Emo" class="profile-pic">
+            </div>
+
+            <div class="video-container">
+                <video controls playsinline class="main-video">
+                    <source src="images/IMG_1388.mov" type="video/quicktime">
+                    <source src="images/IMG_1388.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <div class="comment-section">
+                <h3><i class="fas fa-comments"></i> Коментари за Емо</h3>
+                <div class="comments" id="emo-comments"></div>
+                <div class="comment-form">
+                    <textarea id="emo-comment" placeholder="Напиши коментар..."></textarea>
+                    <button onclick="addComment('emo')">
+                        <i class="fas fa-paper-plane"></i> Изпрати
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

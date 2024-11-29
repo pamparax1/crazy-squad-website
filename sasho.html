@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сашо - The Crazy Squad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container profile-page">
+        <nav class="top-nav">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back
+            </a>
+            <h1 class="profile-title">Сашо - Верният Приятел</h1>
+        </nav>
+
+        <div class="profile-content">
+            <div class="profile-header">
+                <div class="profile-icon">
+                    <i class="fas fa-glass-cheers"></i>
+                </div>
+            </div>
+
+            <div class="story-section">
+                <div class="story-title">Верният Приятел на Масата</div>
+                <p class="story-text">Той винаги пие на екс и никога не предава хората, когато седне на масата да пие:</p>
+                <ul class="story-list">
+                    <li><i class="fas fa-handshake"></i> Никога не оставя приятел да пие сам</li>
+                    <li><i class="fas fa-shield-alt"></i> Пази тайните на масата като банков трезор</li>
+                    <li><i class="fas fa-bolt"></i> Изпива всичко на екс без да му мигне окото</li>
+                    <li><i class="fas fa-heart"></i> Винаги е последен на масата с приятелите</li>
+                </ul>
+                <div class="fun-fact">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span>Интересен факт: Никога не е предал приятел на масата за пиене!</span>
+                </div>
+            </div>
+
+            <div class="profile-images">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462574837_482867444913105_3671442421328645831_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=0024fc&_nc_ohc=i95_Kel75y0Q7kNvgFscFQO&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QHTeJFLJ39ryMzsLVYarpHlXC1hVty701MPD8NL3AX7Vg&oe=67714BD8" alt="Sasho" class="profile-pic">
+            </div>
+
+            <div class="comment-section">
+                <h3><i class="fas fa-comments"></i> Коментари за Сашо</h3>
+                <div class="comments" id="sasho-comments"></div>
+                <div class="comment-form">
+                    <textarea id="sasho-comment" placeholder="Напиши коментар..."></textarea>
+                    <button onclick="addComment('sasho')">
+                        <i class="fas fa-paper-plane"></i> Изпрати
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

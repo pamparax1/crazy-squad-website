@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Йоан - The Crazy Squad</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container profile-page">
+        <nav class="top-nav">
+            <a href="index.html" class="back-btn">
+                <i class="fas fa-arrow-left"></i> Back
+            </a>
+            <h1 class="profile-title">Йоан - ЦСКА Фенът</h1>
+        </nav>
+
+        <div class="profile-content">
+            <div class="profile-header">
+                <div class="profile-icon">
+                    <i class="fas fa-futbol"></i>
+                </div>
+            </div>
+
+            <div class="story-section">
+                <div class="story-title">ЦСКА Фенът и Големите Неща</div>
+                <p class="story-text">Йоан е най-големият фен на ЦСКА и когато пие алкохол, стават големи неща:</p>
+                <ul class="story-list">
+                    <li><i class="fas fa-beer"></i> Пее химна на ЦСКА на всеки 5 минути</li>
+                    <li><i class="fas fa-bullhorn"></i> Разказва всички мачове на ЦСКА от последните 10 години</li>
+                    <li><i class="fas fa-fire"></i> Предизвиква фенове на други отбори</li>
+                    <li><i class="fas fa-star"></i> Планира как ЦСКА ще спечели Шампионската лига</li>
+                </ul>
+                <div class="fun-fact">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span>Интересен факт: Знае наизуст всички играчи на ЦСКА от създаването на отбора!</span>
+                </div>
+            </div>
+
+            <div class="profile-images">
+                <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/462565411_486023477223833_8237055078461946739_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0024fc&_nc_ohc=RYfWI0xmKQMQ7kNvgGowPuk&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent.xx&oh=03_Q7cD1QEevNvavJXmay-luzGKsTEDizkwoKIbkblkdQ_urQ1qhg&oe=677130A8" alt="Yoan" class="profile-pic">
+            </div>
+
+            <div class="comment-section">
+                <h3><i class="fas fa-comments"></i> Коментари за Йоан</h3>
+                <div class="comments" id="yoan-comments"></div>
+                <div class="comment-form">
+                    <textarea id="yoan-comment" placeholder="Напиши коментар..."></textarea>
+                    <button onclick="addComment('yoan')">
+                        <i class="fas fa-paper-plane"></i> Изпрати
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
